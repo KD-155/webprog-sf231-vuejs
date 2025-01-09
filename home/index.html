@@ -3,8 +3,6 @@
 <head>
   <title>My first Vue page</title>
   <link rel="stylesheet" href="css/style.css">
-<head>
-  <link rel="stylesheet" href="css/flexbox-grid.css">
   <link rel="stylesheet" href="css/flexbox-grid.css">
 </head>
 <body>
@@ -85,6 +83,7 @@
 
 <div id="app">
   {{ message }}
+  <div v-bind:class="vueClass">This element is bound to the "pinkBG" class.</div>
 </div>
 
 <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
