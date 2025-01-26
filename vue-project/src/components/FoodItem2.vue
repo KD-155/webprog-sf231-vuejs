@@ -10,14 +10,9 @@
 export default {
   data() {
     return {
-      name: 'Apples',
-      message: 'I like Apples',
+      name: 'Mangoes',
+      message: 'I like Mangoes',
       clicks: 0
-    }
-  },
-  methods: {
-    countClicks() {
-      this.clicks++;
     }
   }
 }
@@ -30,7 +25,7 @@ export default {
     width: 120px;
     margin: 10px;
     padding: 10px;
-    background-color: lightgreen;
+    background-color: lightyellow;
   }
   #app > div:hover {
     cursor: pointer;
