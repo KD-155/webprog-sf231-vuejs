@@ -37,8 +37,8 @@
   import { ref, reactive, onMounted, computed } from 'vue';
   import axios from 'axios';
   
-  //export default {
-  //  setup() {
+ // export default {
+ //   setup() {
       const posts = ref([]);
       const loading = ref(false);
       const error = ref(null);
@@ -116,8 +116,8 @@
   
   
       onMounted(fetchPosts);
-  /*
-      return {
+  
+     /* return {
         posts,
         loading,
         error,
@@ -130,6 +130,6 @@
         editPostData,
         cancelEdit,
       }; */
-   // },
-  //};
+//    },
+//  };
   </script>
